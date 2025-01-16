@@ -19,7 +19,7 @@ touch .gitignore
 echo "Skip.txt" > .gitignore
 git add .
 git commit -m "Test commit"
-git push -u origin Test
+git push origin Test
 git checkout main
 git push origin main
 git checkout Test
