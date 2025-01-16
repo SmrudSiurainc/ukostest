@@ -12,6 +12,7 @@ echo "s33384" > ReadMe.MD
 git add .
 git commit -m "First commit"
 git branch Test
+git pull
 touch Add.txt Skip.txt
 head -n 10 kolokwium.sh > Add.txt
 tail -n 10 kolokwium.sh > Skip.txt
