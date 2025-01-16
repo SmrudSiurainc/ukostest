@@ -1,0 +1,10 @@
+#!/bin/bash
+read parametr1
+mkdir $parametr1
+cd $parametr1
+git init
+git remote add origin git@github.com:SmrudSiurainc/ukostest.git
+git branch -m main
+git pull origin main
+cp ../kolokwium.sh .
+touch ReadMe.MD
